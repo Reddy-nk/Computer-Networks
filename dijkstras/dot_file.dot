@@ -1,0 +1,16 @@
+graph  {
+u;
+v;
+w;
+x;
+y;
+z;
+u -- x  [weight=3, label="3"];
+u -- y  [weight=10, label="10"];
+u -- z  [weight=1, label="1"];
+v -- w  [weight=8, label="8"];
+v -- y  [weight=1, label="1"];
+v -- z  [weight=10, label="10"];
+x -- y  [weight=8, label="8"];
+y -- z  [weight=1, label="1"];
+}
